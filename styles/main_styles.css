@@ -371,12 +371,13 @@ section
 
 .main_nav
 {
-	flex-basis: 200%;
+	flex-basis: 175%;
 }
 .main_nav ul
 {
 	display: inline-block;
-	margin-right: 100px;
+	margin-right: 220px;
+	margin-top: 50px;
 	-webkit-transform: translateY(-4px);
 	-moz-transform: translateY(-4px);
 	-ms-transform: translateY(-4px);
@@ -425,6 +426,7 @@ section
 {
 	width: 40px;
 	height: 40px;
+	margin-bottom: 0x;
 	background: transparent;
 	cursor: pointer;
 }
