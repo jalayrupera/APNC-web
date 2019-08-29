@@ -272,10 +272,12 @@ section
 	display: inline-block;
 	height: 54px;
 	width: 174px;
+	padding-top: auto;
 	text-align: center;
 	border: solid 2px #452b78;
 	background: transparent;
 }
+
 .button a
 {
 	display: block;
@@ -286,6 +288,7 @@ section
 	text-transform: uppercase;
 	color: #452b78;
 }
+
 .prlx_parent
 {
 	overflow: hidden;
@@ -331,8 +334,9 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
+	padding-top: auto;
 	height: 128px;
-	background: rgba(27, 11, 51, 0.92);
+	background: rgba(27, 11, 51, .92);
 	z-index: 10;
 }
 .header.scrolled
@@ -349,6 +353,7 @@ section
 {
 	padding-left: 57px;
 	flex-basis: 50%;
+	margin-top: 5px;
 }
 .logo a
 {
@@ -372,6 +377,7 @@ section
 .main_nav
 {
 	flex-basis: 200%;
+	
 }
 .main_nav ul
 {
@@ -400,6 +406,7 @@ section
 	font-weight: 400;
 	line-height: 40.51px;
 	color: #FFFFFF;
+	
 }
 .main_nav ul li.active a
 {
@@ -500,11 +507,11 @@ section
 {
 	width: 100%;
 	height: 100%;
+	
 }
 .hero_slider_item
 {
-	 
-	height: 100%;
+	height: 100%; 
 }
 .item_1 span
 {
@@ -710,7 +717,6 @@ section
 	top: 0;
 	right: -400px;
 	width: 400px;
-	height: 100vh;
 	background: #FFFFFF;
 	z-index: 11;
 	opacity: 0;
@@ -795,6 +801,7 @@ section
 
 .icon_boxes
 {
+	background: #000;
 	width: 100%;
 	padding-top: 123px;
 	padding-bottom: 129px;
@@ -811,6 +818,7 @@ section
 .icon_box_button
 {
 	margin-top: 40px;
+	
 }
 .icon_box_button:hover
 {
@@ -821,12 +829,12 @@ section
 	color: #FFFFFF;
 }
 .icon_box_col
-{
+{	padding-left: 80px;
 	padding-top: 21px;
 }
 .icon_box_item
 {
-	margin-bottom: 63px;
+	margin-bottom: 43px;
 }
 .icon_box_item:last-child
 {
@@ -997,6 +1005,7 @@ section
 
 .services
 {
+	background: #000;
 	width: 100%;
 	padding-top: 130px;
 	padding-bottom: 184px;
@@ -1116,7 +1125,7 @@ section
 }
 .service_item_content
 {
-	max-width: 100%;
+	max-width: 200%;
 }
 .services_item_inner h2
 {
@@ -1183,20 +1192,52 @@ section
 	position: absolute;
 	top: -70px;
 	left: 0;
-	width: 42px;
-	height: 42px;
+	width: 100%;
+	height: 100px;
 	-webkit-transition: all 600ms ease;
 	-moz-transition: all 600ms ease;
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
 	transition: all 600ms ease;
 }
+
+
+.service_item_icon1
+{
+	position: absolute;
+	top: -70px;
+	left: 0;
+	width: 40%;
+	height: auto;
+	image-resolution: 50;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+
 .service_item_icon .icon
 {
 	font-size: 40px;
 	line-height: 1;
 	color: #452b78;
 }
+
+.service_item_icon1 .icon
+{
+	font-size: 40px;
+	line-height: 1;
+	color: #452b78;
+}
+
+.service_item_icon3 .icon
+{
+	font-size: 40px;
+	line-height: 1;
+	color: #452b78;
+}
+
 .services_slider .owl-item.active.center .services_item_inner .service_item_icon .icon
 {
 	font-size: 50px;
@@ -1362,49 +1403,10 @@ section
 {
 	width: 776px;
 	height: auto;
+	padding-right: 120px;
 }
 
-/*********************************
-10. Text Line
-*********************************/
 
-.text_line
-{
-	width: 100%;
-	background: #FFFFFF;
-}
-.text_line_image
-{
-	position: absolute;
-	bottom: 49px;
-	right: 0;
-}
-.text_line_image img
-{
-	max-width: 100%;
-	height: auto;
-}
-.text_line_content
-{
-	padding-top: 127px;
-	padding-bottom: 118px;
-}
-.text_line_content h1
-{
-	margin-bottom: 40px;
-}
-.text_line_content p
-{
-	margin-bottom: 41px;
-}
-.text_line_button:hover
-{
-	background: #452b78;
-}
-.text_line_button:hover a
-{
-	color: #FFFFFF;
-}
 
 /*********************************
 11. Newsletter
@@ -1572,3 +1574,70 @@ section
 {
 	color: #28262d;
 }
+  
+.slick-track {
+	will-change: transform;
+  }
+  
+.slick-list {
+	overflow: visible;
+	will-change: transform;
+  }
+  
+.slick-slide {
+	padding: 0 100px;
+	width: 100vw;
+	filter: drop-shadow(0px 10px 40px rgba(0,0,0,0.55));
+	
+	img {
+	  max-width: 100% ;
+	  margin: 0 auto;
+	}
+  };
+  
+  [type="button"] {
+	position: fixed;
+	top: 50%;
+	z-index: 10;
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+	border: 0;
+	text-indent: -9999px;
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	opacity: 0.9;
+	transform: translateY(-50%);
+	transition: all 0.25s ease;
+	
+	&:hover {
+	  opacity: 1;
+	}
+	
+	&.slick-next {
+	  right: 0;
+	   
+	  
+	  &:hover {
+		right: -5px;
+	  }
+	}
+	
+	&.slick-prev {
+	  left: 0;
+	  background-image: url(data:images/);
+	  
+	  &:hover {
+		left: -5px;
+	  }
+	}
+  };
+  
+  
+  .do-transition {
+	animation: 
+	  motion-blur 0.1s linear forwards,
+	  motion-blur 0.4s linear reverse forwards 0.1s;
+  }
