@@ -167,13 +167,13 @@
 		top: 0;
 	    left: 0;
 	    width: 100%;
-	    background: #ebc10a;;
+	    background: #8d8c88;;
 	    z-index: -1;
 	}
 	.device_image_container
 	{
 		width: 75%;
-		height: 200%;
+		height: 00%;
 		padding-top: 55px;
 		margin: 0 auto;
 	}
@@ -391,7 +391,7 @@
 	}
 	.device_item span
 	{
-		background: #ebc10a;
+		background: #949390;
 		width: 46px;
 		height: 46px;
 		font-size: 15px;
@@ -454,4 +454,12 @@
 @media only screen and (max-width: 400px)
 {
 	
+}
+.pcimg{
+	width: 100%;
+}
+@media only screen and (min-width: 720px){
+	.pcimg{
+		width: 150%;
+	}
 }

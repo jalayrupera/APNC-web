@@ -93,7 +93,7 @@
 	}
 	.footer_logo
 	{
-		padding-left: 0px;
+		padding-left: 100px;
 	}
 }
 
@@ -217,6 +217,7 @@
 	}
 	.features_col
 	{
+		padding-left: 50px;
 		padding-bottom: 0px;
 		padding-top: 0px;
 	}
@@ -226,6 +227,7 @@
 	}
 	.features_image
 	{
+		width: 50%;
 		margin-bottom: 50px;
 	}
 	.cta_image
