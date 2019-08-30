@@ -145,7 +145,7 @@
 	.icon_box_button
 	{
 		margin-bottom: 30px;
-	}
+	} 
 	.item_1 span:first-child
 	{
 		font-size: 20px;
@@ -233,10 +233,10 @@
 	.cta_image
 	{
 		position: relative;
+		padding-right: 180px;
 		top: auto;
 		left: auto;
-		width: 100%;
-		height: auto;
+		width: 120%;
 		padding-top: 58px;
 	}
 	.cta_image img
@@ -597,3 +597,33 @@
 {
 	
 }
+
+
+
+@keyframes motion-blur {
+	0% {
+	  filter: url(#blur0);
+	  transform: scale(1, 1);
+	}
+	15% {
+	  filter: url(#blur1);
+	  transform: scale(1, 0.98);
+	}
+	30% {
+	  filter: url(#blur2);
+	  transform: scale(1, 0.93);
+	}
+	45% {
+	  filter: url(#blur3);
+	  transform: scale(1.1, 0.9);
+	}
+	60% {
+	  filter: url(#blur4);
+	  transform: scale(1.2, 0.88);
+	}
+	75%,
+	100% {
+	  filter: url(#blur5);
+	  transform: scale(1.35, 0.85);
+	}
+  }
