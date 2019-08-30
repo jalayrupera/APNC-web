@@ -37,7 +37,7 @@
 @media only screen and (max-width: 1440px)
 {
 	.main_nav ul
-	{
+	{	
 		margin-right: 80px;
 	}
 	.main_nav ul li
@@ -391,7 +391,7 @@
 	}
 	.device_item span
 	{
-		background: #949390;
+		background: rgba(27,11,51,);
 		width: 46px;
 		height: 46px;
 		font-size: 15px;
