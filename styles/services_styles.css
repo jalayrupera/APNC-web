@@ -378,6 +378,7 @@ section
 {
 	display: inline-block;
 	margin-right: 100px;
+	padding-right: 80px;
 	-webkit-transform: translateY(-4px);
 	-moz-transform: translateY(-4px);
 	-ms-transform: translateY(-4px);
