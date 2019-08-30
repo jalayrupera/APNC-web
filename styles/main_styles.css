@@ -1484,6 +1484,17 @@ section
 	padding-top: 99px;
 	padding-bottom: 82px;
 }
+
+.footer_nav {
+    list-style: none;
+    float: left;
+}
+
+.footer_nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
 .footer_logo
 {
 	padding-left: 0px;
